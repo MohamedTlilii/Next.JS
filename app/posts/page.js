@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Todo from "../components/todo";
+import Todo from "../components/Todo";
 // import Link from "next/link";
 async function Page() {
   const response = await fetch("https://jsonplaceholder.typicode.com/posts", {
@@ -61,6 +61,9 @@ async function Page() {
       <div style={{ backgroundColor: "blue" }}>
         <Todo />
       </div> */}
+      <div style={{ backgroundColor: "blue" }}>
+        <Todo />
+      </div>
     </div>
   );
 }
